@@ -10,7 +10,7 @@
         sex: male,
         canReproduce: true,
         healthPercent: 80,
-        meow: () => {
+        action: () => {
             console.log('Tiger meows 🐯');
         }
     }
@@ -28,3 +28,4 @@ function randNum(min, max) {
     let num = Math.floor(Math.random() * (max - min) ) + min;
     return num;
 }
+
